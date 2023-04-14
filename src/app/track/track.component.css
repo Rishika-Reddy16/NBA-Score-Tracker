@@ -1,0 +1,19 @@
+  .cards{
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    gap: 30px;
+  }
+  .card {
+    padding: 20px;
+    width: 440px;
+    margin-top: 20px
+  }
+  .result {
+    color: #eee;
+    border-radius: 50%;
+    margin-right: 7px;
+    width: 30px;
+    height: 30px;
+    text-align: center;
+    padding-top: 2.5px;
+  }
